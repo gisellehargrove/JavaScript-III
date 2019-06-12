@@ -55,7 +55,7 @@ function Humanoid(attrs) {
   this.language = attrs.language;
 }
 
-Humaniod.prototype.greet = function() {
+Humanoid.prototype.greet = function() {
   return `${this.name} offeres a greeting in ${this.language}`
 }
 
