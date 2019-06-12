@@ -56,8 +56,6 @@ function Humanoid(attrs) {
   this.team = attrs.team;
   this.weapons = attrs.weapons;
   this.language = attrs.language;
-  // GameObject.call(this, attrs);
-  // this.takeDamage = attrs.takeDamage;
 }
 Humanoid.prototype = Object.create(CharacterStats.prototype);
 
